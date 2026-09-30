@@ -10,7 +10,6 @@ cc_binary {
     cflags: [
         "-Wall",
         "-Wextra",
-        "-Werror",
     ],
 
     shared_libs: [

@@ -398,7 +398,7 @@ _copy_from_user(void *to, const void __user *from, unsigned long n)
 #ifdef CONFIG_DEBUG_STRICT_USER_COPY_CHECKS
 /*
  * There are still unprovable places in the generic code as of 2.6.34, so this
- * option is not really compatible with -Werror, which is more useful in
+ * option is not really compatible with , which is more useful in
  * general.
  */
 extern void copy_from_user_overflow(void)

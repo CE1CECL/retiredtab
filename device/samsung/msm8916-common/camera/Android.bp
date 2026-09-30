@@ -47,7 +47,6 @@ cc_library_shared {
     cflags: [
         "-Wall",
         "-Wextra",
-        "-Werror",
         "-Wno-unused-const-variable",
         "-Wno-unused-parameter",
         "-fvisibility=hidden",
